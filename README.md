@@ -18,4 +18,7 @@ After conducting a thorough web search for suitable models, we converged on Llam
 
 Developed and trained by Meta on over 15 trillion tokens of publicly available data (seven times more than Llama 2), it demonstrates multilingual capabilities across 30+ languages, making it adaptable for Persian fine-tuning. Its variants (8B and 70B parameters) set new benchmarks, outperforming models like GPT-3.5 in areas such as MMLU (79.5% for the 70B pretrained version) and HumanEval, while maintaining low false refusal rates for reliable, client-facing interactions.
 
+section : dataset 
+for chatbot usage we need a clean, task-specific and diverse dataset which we can train our model thus it could have a state-of-art accuracy and also it should be a correct dataset.
+
 We are fine-tuning Llama 3 specifically for the downstream task of building our Persian chatbot, with details on the process covered in the next section.
